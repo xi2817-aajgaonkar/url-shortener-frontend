@@ -1,0 +1,9 @@
+:3000
+
+root * ./build
+
+try_files {path} /index.html
+
+file_server {
+  root ./build
+}
